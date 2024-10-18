@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Assinatura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form id="subscription-form">
+            <label for="email" class="email-label">
+                <span class="label-text">E-mail</span>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </label>
+            
+            <button type="submit" class="submit-btn">
+                Assinar <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+            </button>
+        </form>
+        
+        <div class="checkbox-container">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms" class="terms-label">Aceito os termos de uso e privacidade.</label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
